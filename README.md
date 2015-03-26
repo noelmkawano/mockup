@@ -2,6 +2,10 @@
 
 <img src="ics-play-bootstrap-home.png" width="500px"/>
 
+<img src="@routes.Assets.at("images/Capture3.JPG")" height="400px" width="400px">
+
+![alt tag](http://www.monacafire.com/blog/wp-content/uploads/2015/01/Fire.jpg)
+
 ## Overview
 
 This is a revised version of the Activator 'play-java' template system which:

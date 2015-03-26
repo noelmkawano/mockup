@@ -1,7 +1,57 @@
 @(message: String)
 
 @Main("Home") {
-  <div class="container">
-    <p>@message</p>
+  <div class="mainDes">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>IlluminesceSense</h1>
+        <div class="team">
+          <img src="@routes.Assets.at("images/team.jpg")" height="200px" width="300">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <p>Mission and description of our team members</p>
+      </div>
+    </div>
+  </div>
+  <div class="mainInf">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Infinity Display</h1>
+        <div class="infinity">
+          <img src="@routes.Assets.at("images/infinity.jpg")" height="200px" width="300">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <p>Description of the project and link</p>
+      </div>
+    </div>
+  </div>
+  <div class="mainDance">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Dance Floor</h1>
+        <div class="dance">
+          <img src="@routes.Assets.at("images/dance.jpg")" height="200px" width="300">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <p>Description of project and link</p>
+      </div>
+    </div>
+  </div>
+  <div class="mainAccolades">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Accolades</h1>
+        <div class="accolades">
+          <img src="@routes.Assets.at("images/bic_banner_9.png")" height="100px" width="300">
+          <img src="@routes.Assets.at("images/bpc_banner-asb.png")" height="100px" width="300">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <p>Breakthrough Innovation Challenege and the Business Plan Competition</p>
+      </div>
+    </div>
   </div>
 }

@@ -26,8 +26,14 @@ public class IntegrationTest {
         browser.goTo("http://localhost:3333");
         assertThat(browser.pageSource()).contains("home page");
 
-        browser.goTo("http://localhost:3333/page1");
-        assertThat(browser.pageSource()).contains("Page1");
+        browser.goTo("http://localhost:3333/Infinity");
+        assertThat(browser.pageSource()).contains("Infinity");
+
+        browser.goTo("http://localhost:3333/Dance");
+        assertThat(browser.pageSource()).contains("Dance");
+
+        browser.goTo("http://localhost:3333/Contacts");
+        assertThat(browser.pageSource()).contains("Contacts");
       }
     });
   }

@@ -1,3 +1,94 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+
+}
+
+.team {
+  background-size: contain;
+  padding-left: 80px;
+}
+
+.infinity {
+   background-size: contain;
+   padding-left: 80px;
+ }
+
+.dance {
+  background-size: contain;
+  padding-left: 80px;
+}
+
+.accolades {
+  background-size: contain;
+  padding-left: 80px;
+}
+
+.banner {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  height: 140px;
+}
+
+.mainDes {
+  background-color: #101010;
+  padding-bottom: 60px;
+}
+
+.mainInf {
+  background-color: #181818;
+  padding-bottom: 60px;
+}
+
+.mainDance {
+  background-color: #202020;
+  padding-bottom: 60px;
+}
+
+.mainAccolades {
+  background-color: #282828;
+  padding-bottom: 60px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-left: 80px;
+  margin-top: 0;
+  color: white;
+}
+
+img {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse {
+  background-color: #080808;
+}
+
+p {
+  color: white;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+h2 {
+  font-size: 36px;
+  padding-top: 20px;
+  text-align: center;
+  margin-top: 0;
+  color: white;
+}
+
+.infanimation {
+  text-align: center;
+}
+
+h3 {
+  color: white;
 }
